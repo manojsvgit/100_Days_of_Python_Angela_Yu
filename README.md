@@ -26,15 +26,15 @@ The bootcamp covers:
 
 Clone the repository:
 
-\`\`\`bash
+```bash
 git clone https://github.com/manojsvgit/100-Days-of-Python-Angela-Yu.git
-\`\`\`
+```
 
 Navigate to the project folder:
 
-\`\`\`bash
+```bash
 cd 100-Days-of-Python-Angela-Yu
-\`\`\`
+```
 
 Explore the code and projects.
 
