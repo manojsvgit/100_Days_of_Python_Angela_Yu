@@ -25,10 +25,14 @@ Your Band name could be New York Fluffy
 
 ## Installation
 1. Clone or download the project files.
-2. Run the Python script using the command:
+2. Install dependencies using: 
 
    ```bash
-   python main.py
+   pip install pyfiglet
+   ```
+3. Run the Python script using the command: 
+   ```bash
+   python band_name_generator.py
    ```
 
 ## License
