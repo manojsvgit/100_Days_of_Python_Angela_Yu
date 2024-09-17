@@ -1,6 +1,7 @@
 
 # Tip Calculator
 
+---
 ## Description
 This is a simple Python program that calculates how much each person should pay when splitting a bill, including the tip. The user inputs the total bill, the desired tip percentage, and the number of people to split the bill, and the program calculates each person's share.
 
@@ -39,8 +40,10 @@ Each person should pay: $56.00
    ```
 3. Run the Python script using the command: 
    ```bash
-   python tip_calculator.py
+   python3 tip_calculator.py
    ```
 
 ## License
 This project is open-source and free to use under the MIT License.
+
+---

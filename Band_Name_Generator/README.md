@@ -1,6 +1,7 @@
 
 # Band Name Generator
 
+---
 ## Description
 This is a simple Python program that helps generate a fun and unique band name based on user input. The program asks for the city you grew up in and your pet's name to create a potential band name.
 
@@ -32,8 +33,10 @@ Your Band name could be New York Fluffy
    ```
 3. Run the Python script using the command: 
    ```bash
-   python band_name_generator.py
+   python3 band_name_generator.py
    ```
 
 ## License
 This project is open-source and free to use under the MIT License.
+
+---
