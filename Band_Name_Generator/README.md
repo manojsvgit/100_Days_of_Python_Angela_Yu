@@ -1,24 +1,28 @@
 
-# Band Name Generator
+# PyPassword Generator
 
 ---
 ## Description
-This is a simple Python program that helps generate a fun and unique band name based on user input. The program asks for the city you grew up in and your pet's name to create a potential band name.
+PyPassword Generator is a simple Python program that generates strong and customizable passwords based on user input. The user can specify the number of letters, numbers, and symbols to include in the password, and the program will generate a random, secure password accordingly.
 
 ## How to Use
 1. Run the program in your Python environment.
-2. Input the city you grew up in when prompted.
-3. Input your pet's name when prompted.
-4. The program will display a generated band name using the format: `<City Name> <Pet Name>`.
+2. Specify the number of letters, numbers, and symbols when prompted.
+3. The program will generate a password containing the specified combination of characters.
+4. The final password will be displayed after shuffling the characters for better security.
 
 ## Example
 ```python
-Welcome to the Band Name Generator
-What's the name of the city you grew up in ?
-New York
-What's your pet's name ?
-Fluffy
-Your Band name could be New York Fluffy
+Welcome to PyPassword Generator!
+How many letters would you like in your password? 
+8
+How many numbers would you like in your password? 
+3
+How many symbols would you like in your password? 
+2
+Final password without shuffle: ['A', 'b', 'C', 'd', 'e', 'F', 'g', 'H', '7', '3', '5', '#', '!']
+Final password with shuffle: ['7', 'g', 'H', '3', 'F', '5', '!', 'A', 'd', '#', 'C', 'e', 'b']
+Your final password is: 7gH3F5!Ad#Ceb
 ```
 
 ## Requirements
@@ -33,7 +37,7 @@ Your Band name could be New York Fluffy
    ```
 3. Run the Python script using the command: 
    ```bash
-   python3 band_name_generator.py
+   python3 password_generator.py
    ```
 
 ## License
