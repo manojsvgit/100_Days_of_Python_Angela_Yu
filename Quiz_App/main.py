@@ -9,8 +9,8 @@ print(figlet_format(logo))
 question_bank=[]
 
 for question in question_data:
-    qtext=question["text"]
-    qanswer=question["answer"]
+    qtext=question["question"]
+    qanswer=question["correct_answer"]
     new_question=Question(qtext,qanswer)
     question_bank.append(new_question)
 
